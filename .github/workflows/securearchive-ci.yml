@@ -1,4 +1,4 @@
-name: SecureArchive CI
+name: SecureArchive Minimal CI
 
 on:
   push:
@@ -7,19 +7,16 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
-permissions:
-  contents: read
-
 jobs:
-  lint-and-test:
+  ci:
     name: Lint & Test
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -29,11 +26,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install cryptography PySide6 flake8 pytest
 
-      - name: Lint code
+      - name: Lint with flake8
         run: |
           flake8 securearchive --count --select=E9,F63,F7,F82 --show-source --statistics
           flake8 securearchive --count --exit-zero --max-complexity=10 --statistics
 
-      - name: Run tests
+      - name: Run tests (if folder exists)
         run: |
-          if [ -d tests ]; then pytest -q; else echo "No tests folder found"; fi
+          if [ -d tests ]; then
+            pytest -q --disable-warnings --maxfail=1
+          else
+            echo "No tests folder found — skipping."
+          fi
