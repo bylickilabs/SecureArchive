@@ -1,5 +1,12 @@
 <p align="center">
 
+  | [![SecureArchive CI](https://github.com/bylickilabs/SecureArchive/actions/workflows/securearchive-ci.yml/badge.svg)](https://github.com/bylickilabs/SecureArchive/actions/workflows/securearchive-ci.yml) |
+|---|
+  
+</p>
+
+<p align="center">
+
   <img src="https://img.shields.io/github/actions/workflow/status/bylickilabs/SecureArchive/securearchive-ci.yml?branch=main&label=Build&logo=github">
   <img src="https://img.shields.io/badge/Python-3.12+-blue?logo=python">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blueviolet">
