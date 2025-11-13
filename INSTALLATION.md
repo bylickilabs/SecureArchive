@@ -1,4 +1,4 @@
-# INSTALLATION.md — SecureArchive / TitanCrypt Engine
+### INSTALLATION.md — SecureArchive / TitanCrypt Engine
 
 ## 1. Overview
 
