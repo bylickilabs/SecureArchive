@@ -21,7 +21,7 @@
 
   <img src="https://img.shields.io/badge/Mode-Offline--Only-important">
   <img src="https://img.shields.io/badge/Version-1.0.0-brightgreen">
-  <img src="https://img.shields.io/badge/License-Proprietary-red">
+  <img src="https://img.shields.io/badge/License-MIT-red">
 
 </p>
 
