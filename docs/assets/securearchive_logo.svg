@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="160" viewBox="0 0 480 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="160" rx="24" ry="24" fill="#020617"/>
+
+  <g transform="translate(32,28)">
+    <rect x="0" y="0" width="96" height="96" rx="24" ry="24" fill="#020617" stroke="url(#logo-grad)" stroke-width="2.4"/>
+    <path d="M26 32 L70 32 L80 50 L53 88 L26 50 Z" fill="none" stroke="url(#logo-grad)" stroke-width="2.6"/>
+    <path d="M32 58 H70" stroke="#e5e7eb" stroke-width="2" stroke-linecap="round"/>
+    <path d="M38 70 H74" stroke="#e5e7eb" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(152,44)">
+    <text x="0" y="0" fill="#e5e7eb" font-family="Segoe UI, system-ui, -apple-system, BlinkMacSystemFont" font-weight="600" font-size="26">
+      SecureArchive
+    </text>
+    <text x="0" y="30" fill="#9ca3af" font-family="Segoe UI, system-ui, -apple-system, BlinkMacSystemFont" font-size="14">
+      TitanCrypt Engine
+    </text>
+  </g>
+</svg>

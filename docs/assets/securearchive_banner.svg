@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="grad-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#020617" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="360" fill="url(#grad-bg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.12">
+    <defs>
+      <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M40 0 H0 V40" fill="none" stroke="#64748b" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect x="0" y="0" width="1280" height="360" fill="url(#grid)"/>
+  </g>
+
+  <!-- Shield / container icon -->
+  <g transform="translate(140,80)" filter="url(#shadow)">
+    <rect x="0" y="0" rx="32" ry="32" width="220" height="220" fill="#020617" stroke="url(#grad-accent)" stroke-width="2.5"/>
+    <path d="M60 60 L160 60 L180 100 L110 190 L40 100 Z" fill="none" stroke="url(#grad-accent)" stroke-width="3.2"/>
+    <path d="M78 110 H142" stroke="#e5e7eb" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M90 132 H150" stroke="#e5e7eb" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="94" cy="90" r="6" fill="#22c55e"/>
+    <circle cx="114" cy="90" r="6" fill="#eab308"/>
+    <circle cx="134" cy="90" r="6" fill="#ef4444"/>
+  </g>
+
+  <!-- Text block -->
+  <g transform="translate(420,120)">
+    <text x="0" y="0" fill="#e5e7eb" font-family="Segoe UI, system-ui, -apple-system, BlinkMacSystemFont" font-weight="600" font-size="34">
+      SecureArchive
+    </text>
+    <text x="0" y="40" fill="#9ca3af" font-family="Segoe UI, system-ui, -apple-system, BlinkMacSystemFont" font-size="18">
+      TitanCrypt Engine — Offline Container Encryption Suite
+    </text>
+
+    <rect x="0" y="70" rx="18" ry="18" width="360" height="40" fill="#020617" stroke="#4b5563" stroke-width="1.2"/>
+    <text x="22" y="96" fill="#e5e7eb" font-family="Consolas, SFMono-Regular, Menlo, Monaco, monospace" font-size="15">
+      AES-256-GCM · PBKDF2-SHA512 · Encrypted Manifest
+    </text>
+
+    <text x="0" y="146" fill="#6b7280" font-family="Segoe UI, system-ui, -apple-system, BlinkMacSystemFont" font-size="14">
+      100% offline · integrity-checked · container-based encryption for folders & files
+    </text>
+  </g>
+</svg>
