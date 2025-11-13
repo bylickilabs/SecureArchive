@@ -1,4 +1,13 @@
 <p align="center">
+  <img src="docs/assets/securearchive_logo.svg" width="260" />
+</p>
+<p align="center">
+  Powered by the TitanCrypt Engine · Developed by BYLICKILABS
+</p>
+
+
+
+<p align="center">
 
   <img src="https://img.shields.io/github/actions/workflow/status/bylickilabs/SecureArchive/securearchive-ci.yml?branch=main&label=Build&logo=github">
   <img src="https://img.shields.io/badge/Python-3.12+-blue?logo=python">
