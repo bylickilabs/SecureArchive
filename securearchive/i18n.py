@@ -115,7 +115,7 @@ I18N: Dict[str, Dict[str, str]] = {
             "- Encrypted container format (.secarc)\n"
             "- Integrity verification\n"
             "- Password change with re-encryption\n\n"
-            "Author: Thorsten\n"
+            "Autor: ©Thorsten Bylicki | ©BYLICKILABS\n"
         ),
     },
 
@@ -232,7 +232,7 @@ I18N: Dict[str, Dict[str, str]] = {
             "- Verschlüsseltes Containerformat (.secarc)\n"
             "- Integritätsprüfung\n"
             "- Passwortwechsel mit Re-Verschlüsselung\n\n"
-            "Autor: Thorsten\n"
+            "Autor: ©Thorsten Bylicki | ©BYLICKILABS\n"
         ),
     },
 }
