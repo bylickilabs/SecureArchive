@@ -1,3 +1,30 @@
+<p align="center">
+
+  <img src="https://img.shields.io/github/actions/workflow/status/bylickilabs/SecureArchive/securearchive-ci.yml?branch=main&label=Build&logo=github">
+  <img src="https://img.shields.io/badge/Python-3.12+-blue?logo=python">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blueviolet">
+
+  <br>
+
+  <img src="https://img.shields.io/badge/Crypto%20Engine-TitanCrypt%20Core%20v1.0-9cf">
+  <img src="https://img.shields.io/badge/Security-AES--256--GCM%20%7C%20PBKDF2--SHA512-orange">
+  <img src="https://img.shields.io/badge/Integrity-GCM--Auth--Tag-critical">
+  <img src="https://img.shields.io/badge/Container-.secarc%20Custom-0aa">
+
+  <br>
+
+  <img src="https://img.shields.io/badge/GUI-PySide6-blue?logo=qt">
+  <img src="https://img.shields.io/badge/CLI-Full%20Support-success">
+  <img src="https://img.shields.io/badge/Dependencies-PySide6%20%7C%20Cryptography-green">
+
+  <br>
+
+  <img src="https://img.shields.io/badge/Mode-Offline--Only-important">
+  <img src="https://img.shields.io/badge/Version-1.0.0-brightgreen">
+  <img src="https://img.shields.io/badge/License-Proprietary-red">
+
+</p>
+
 # SecureArchive  
 Modern file and folder encryption powered by the TitanCrypt Engine
 
