@@ -35,7 +35,7 @@ SecureArchive/
 │   ├── errors.py           # Fehlerklassen
 │   └── __init__.py
 │
-├── securearchive_gui.py    # PySide6 eGUI
+├── securearchive_gui.py    # PySide6 GUI
 ├── securearchive_main.py   # CLI
 ├── requirements.txt
 ├── README.md
